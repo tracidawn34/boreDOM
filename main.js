@@ -15,7 +15,12 @@ image.src = "https://media.istockphoto.com/id/1470130937/photo/young-plants-grow
 image.style.height = '250px'
 
 
-image.src.innerHTML = "https://tse4.mm.bing.net/th?id=OIP.WbuoeOSKLmHN55FeVkX2bAHaHa&pid=Api&P=0&h=220"
+let imgDiv = document.querySelector('.imgDiv')
+imgDiv.innerHTML = "https://tse2.mm.bing.net/th?id=OIP.TqCbovmLULy2o-akEijiPAHaHZ&pid=Api&P=0&h=220"
+document.querySelectorAll('img')[2].style.height = '280px'
 
+document.querySelectorAll('li')[16].classList.add('item')
 
+//let seventeen = document.querySelectorAll('li')[16]
+//seventeen.classList.add
 listItem[16].innerHTML = "Never gonna give you up."
