@@ -16,11 +16,12 @@ image.style.height = '250px'
 
 
 let imgDiv = document.querySelector('.imgDiv')
-imgDiv.innerHTML = "https://tse2.mm.bing.net/th?id=OIP.TqCbovmLULy2o-akEijiPAHaHZ&pid=Api&P=0&h=220"
+imgDiv.src.innerHTML = "https://tse2.mm.bing.net/th?id=OIP.TqCbovmLULy2o-akEijiPAHaHZ&pid=Api&P=0&h=220"
 document.querySelectorAll('img')[2].style.height = '280px'
 
 document.querySelectorAll('li')[16].classList.add('item')
+let list = document.querySelector('ul');
+list.innerHTML = "<li class='item'>17</li>";
 
-//let seventeen = document.querySelectorAll('li')[16]
-//seventeen.classList.add
 listItem[16].innerHTML = "Never gonna give you up."
+
